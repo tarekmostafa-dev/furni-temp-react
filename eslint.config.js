@@ -17,6 +17,15 @@ export default [
         sourceType: 'module',
       },
     },
+    env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
     settings: { react: { version: '18.3' } },
     plugins: {
       react,
@@ -29,8 +38,10 @@ export default [
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
       'react/jsx-no-target-blank': 'off',
-      'react/jsx-uses-react': 'off',
+      "no-unused-vars": "off",
       "react/prop-types": "off",
+      'react/react-in-jsx-scope': 'off',
+      'react/jsx-uses-react': 'off',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
