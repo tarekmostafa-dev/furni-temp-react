@@ -42,11 +42,7 @@ const About = () => {
                 <div className='col-6 col-md-6 mb-4 mb-md-0'>
                   <div className='feature text-center'>
                     <div className='icon mb-3'>
-                      <img
-                        src={bag}
-                        alt='Easy to Shop'
-                        className='img-fluid'
-                      />
+                      <img src={bag} alt='Easy to Shop' className='img-fluid' />
                     </div>
                     <h3>Easy to Shop</h3>
                     <p>
@@ -115,11 +111,8 @@ const About = () => {
 
             <div className='row'>
               <div className='col-12 col-md-6 col-lg-3 mb-5 mb-md-0'>
-                <img
-                  src={person_1}
-                  className='img-fluid mb-5'
-                />
-                <h3 clas>
+                <img src={person_1} className='img-fluid mb-5' />
+                <h3>
                   <a href='#'>
                     <span className=''>Lawson</span> Arnold
                   </a>
@@ -132,22 +125,16 @@ const About = () => {
                   right at the coast of the Semantics, a large language ocean.
                 </p>
                 <p className='mb-0'>
-                  <a
-                    href='#'
-                    className='more dark'
-                  >
+                  <a href='#' className='more dark'>
                     Learn More <span className='icon-arrow_forward'></span>
                   </a>
                 </p>
               </div>
 
               <div className='col-12 col-md-6 col-lg-3 mb-5 mb-md-0'>
-                <img
-                  src={person_2}
-                  className='img-fluid mb-5'
-                />
+                <img src={person_2} className='img-fluid mb-5' />
 
-                <h3 clas>
+                <h3>
                   <a href='#'>
                     <span className=''>Jeremy</span> Walker
                   </a>
@@ -160,21 +147,15 @@ const About = () => {
                   right at the coast of the Semantics, a large language ocean.
                 </p>
                 <p className='mb-0'>
-                  <a
-                    href='#'
-                    className='more dark'
-                  >
+                  <a href='#' className='more dark'>
                     Learn More <span className='icon-arrow_forward'></span>
                   </a>
                 </p>
               </div>
 
               <div className='col-12 col-md-6 col-lg-3 mb-5 mb-md-0'>
-                <img
-                  src={person_3}
-                  className='img-fluid mb-5'
-                />
-                <h3 clas>
+                <img src={person_3} className='img-fluid mb-5' />
+                <h3>
                   <a href='#'>
                     <span className=''>Patrik</span> White
                   </a>
@@ -187,22 +168,16 @@ const About = () => {
                   right at the coast of the Semantics, a large language ocean.
                 </p>
                 <p className='mb-0'>
-                  <a
-                    href='#'
-                    className='more dark'
-                  >
+                  <a href='#' className='more dark'>
                     Learn More <span className='icon-arrow_forward'></span>
                   </a>
                 </p>
               </div>
 
               <div className='col-12 col-md-6 col-lg-3 mb-5 mb-md-0'>
-                <img
-                  src={person_4}
-                  className='img-fluid mb-5'
-                />
+                <img src={person_4} className='img-fluid mb-5' />
 
-                <h3 clas>
+                <h3>
                   <a href='#'>
                     <span className=''>Kathryn</span> Ryan
                   </a>
@@ -215,10 +190,7 @@ const About = () => {
                   right at the coast of the Semantics, a large language ocean.
                 </p>
                 <p className='mb-0'>
-                  <a
-                    href='#'
-                    className='more dark'
-                  >
+                  <a href='#' className='more dark'>
                     Learn More <span className='icon-arrow_forward'></span>
                   </a>
                 </p>

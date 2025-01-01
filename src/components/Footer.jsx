@@ -16,10 +16,7 @@ const Footer = () => {
         <div className='row align-items-center mb-5'>
           <div className='col-md-9'>
             <h3 className='d-flex align-items-center mb-3'>
-              <Envelope
-                className='me-2'
-                size={20}
-              />
+              <Envelope className='me-2' size={20} />
               Subscribe to Our Newsletter
             </h3>
             <form className='row g-2'>
@@ -38,21 +35,14 @@ const Footer = () => {
                 />
               </div>
               <div className='col-auto'>
-                <button
-                  className='btn btn-primary'
-                  type='submit'
-                >
+                <button className='btn btn-primary' type='submit'>
                   <Send size={20} />
                 </button>
               </div>
             </form>
           </div>
           <div className='col-md-3 text-end'>
-            <img
-              src={sofa}
-              alt='Sofa'
-              className='img-fluid'
-            />
+            <img src={sofa} alt='Sofa' className='img-fluid' />
           </div>
         </div>
 
@@ -62,34 +52,22 @@ const Footer = () => {
           <div className='col-md-4'>
             <ul className='list-unstyled'>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   About Us
                 </a>
               </li>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Services
                 </a>
               </li>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Blog
                 </a>
               </li>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Contact Us
                 </a>
               </li>
@@ -100,34 +78,22 @@ const Footer = () => {
           <div className='col-md-4'>
             <ul className='list-unstyled'>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Careers
                 </a>
               </li>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Our Team
                 </a>
               </li>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Leadership
                 </a>
               </li>
               <li>
-                <a
-                  href='#'
-                  className='text-dark'
-                >
+                <a href='#' className='text-dark'>
                   Privacy Policy
                 </a>
               </li>
@@ -138,51 +104,23 @@ const Footer = () => {
           <div className='col-md-4'>
             <ul className='list-unstyled'>
               <li className='mb-2'>
-                <a
-                  href='#'
-                  className='text-dark d-flex align-items-center'
-                >
-                  <Facebook
-                    className='me-2'
-                    size={25}
-                  />{' '}
-                  Facebook
+                <a href='#' className='text-dark d-flex align-items-center'>
+                  <Facebook className='me-2' size={25} /> Facebook
                 </a>
               </li>
               <li className='mb-2'>
-                <a
-                  href='#'
-                  className='text-dark d-flex align-items-center'
-                >
-                  <Twitter
-                    className='me-2'
-                    size={25}
-                  />{' '}
-                  Twitter
+                <a href='#' className='text-dark d-flex align-items-center'>
+                  <Twitter className='me-2' size={25} /> Twitter
                 </a>
               </li>
               <li className='mb-2'>
-                <a
-                  href='#'
-                  className='text-dark d-flex align-items-center'
-                >
-                  <Instagram
-                    className='me-2'
-                    size={25}
-                  />{' '}
-                  Instagram
+                <a href='#' className='text-dark d-flex align-items-center'>
+                  <Instagram className='me-2' size={25} /> Instagram
                 </a>
               </li>
               <li className='mb-2'>
-                <a
-                  href='#'
-                  className='text-dark d-flex align-items-center'
-                >
-                  <Linkedin
-                    className='me-2'
-                    size={25}
-                  />{' '}
-                  LinkedIn
+                <a href='#' className='text-dark d-flex align-items-center'>
+                  <Linkedin className='me-2' size={25} /> LinkedIn
                 </a>
               </li>
             </ul>

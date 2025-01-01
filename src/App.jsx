@@ -11,7 +11,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero
+        title={'Create Your Dream Space With Modern Interior Design'}
+        content={`Transform your living space with contemporary furniture and thoughtful design that reflects your personality and lifestyle. 
+          Discover how we can help you bring your ideas to life.`}
+      />
       <ProductListing />
       <About />
       <Services />
