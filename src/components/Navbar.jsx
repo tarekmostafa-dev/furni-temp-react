@@ -1,79 +1,79 @@
-import cart from "../assets/images/cart.svg";
-import user from "../assets/images/user.svg";
+import { Link } from 'react-router-dom';
+import cart from '../assets/images/cart.svg';
+import user from '../assets/images/user.svg';
 
 const Navbar = () => {
   return (
     <>
       <nav
-        className=" sticky-top custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
-        arial-label="Furni navigation bar"
+        className=' sticky-top custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark'
+        arial-label='Furni navigation bar'
       >
-        <div className="container">
-          <a className="navbar-brand" href="index">
+        <div className='container'>
+          <Link className='navbar-brand' to='/'>
             Furni<span>.</span>
-          </a>
+          </Link>
 
           <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarsFurni"
-            aria-controls="navbarsFurni"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            className='navbar-toggler'
+            type='button'
+            data-bs-toggle='collapse'
+            data-bs-target='#navbarsFurni'
+            aria-controls='navbarsFurni'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className='navbar-toggler-icon'></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarsFurni">
-            <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-              <li className="nav-item active">
-                <a className="nav-link" href="index">
+          <div className='collapse navbar-collapse' id='navbarsFurni'>
+            <ul className='custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0'>
+              <li className='nav-item active'>
+                <Link className='nav-link' to='/'>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="shop">
+                <Link className='nav-link' to='/cart'>
                   Shop
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="about">
+                <Link className='nav-link' to='/about'>
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="services">
+                <Link className='nav-link' to='/services'>
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="blog">
+                <Link className='nav-link' to='/blogs'>
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="contact">
+                <Link className='nav-link' to='/contact'>
                   Contact us
-                </a>
+                </Link>
               </li>
             </ul>
 
-            <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+            <ul className='custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5'>
               <li>
-                <a className="nav-link" href="#">
-                  <img src={user} alt="user image" />
-                </a>
+                <Link className='nav-link' to='login'>
+                  <img src={user} alt='user image' />
+                </Link>
               </li>
               <li>
-                <a className="nav-link" href="#">
-                  <img src={cart} alt="cart image" />
-                </a>
+                <Link className='nav-link' to='/cart'>
+                  <img src={cart} alt='cart image' />
+                </Link>
               </li>
             </ul>
           </div>
         </div>
-		
       </nav>
     </>
   );
